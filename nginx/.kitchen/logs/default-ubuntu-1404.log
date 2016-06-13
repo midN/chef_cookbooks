@@ -1,0 +1,20 @@
+I, [2016-06-13T22:34:11.230944 #8899]  INFO -- default-ubuntu-1404: -----> Verifying <default-ubuntu-1404>...
+I, [2016-06-13T22:34:11.231547 #8899]  INFO -- default-ubuntu-1404: Preparing files for transfer
+I, [2016-06-13T22:34:11.530199 #8899]  INFO -- default-ubuntu-1404: -----> Busser installation detected (busser)
+I, [2016-06-13T22:34:11.530657 #8899]  INFO -- default-ubuntu-1404: Installing Busser plugins: busser-serverspec
+I, [2016-06-13T22:34:30.529680 #8899]  INFO -- default-ubuntu-1404: Plugin serverspec already installed
+I, [2016-06-13T22:34:30.735870 #8899]  INFO -- default-ubuntu-1404: Removing /tmp/verifier/suites/serverspec
+I, [2016-06-13T22:34:30.745662 #8899]  INFO -- default-ubuntu-1404: Transferring files to <default-ubuntu-1404>
+I, [2016-06-13T22:34:30.957202 #8899]  INFO -- default-ubuntu-1404: -----> Running serverspec test suite
+I, [2016-06-13T22:34:31.029966 #8899]  INFO -- default-ubuntu-1404: /opt/chef/embedded/bin/ruby -I/tmp/verifier/suites/serverspec -I/tmp/verifier/gems/gems/rspec-support-3.4.1/lib:/tmp/verifier/gems/gems/rspec-core-3.4.4/lib /opt/chef/embedded/bin/rspec --pattern /tmp/verifier/suites/serverspec/\*\*/\*_spec.rb --color --format documentation --default-path /tmp/verifier/suites/serverspec
+I, [2016-06-13T22:34:31.381178 #8899]  INFO -- default-ubuntu-1404: 
+I, [2016-06-13T22:34:31.381655 #8899]  INFO -- default-ubuntu-1404: Nginx is installed and running
+I, [2016-06-13T22:34:31.381988 #8899]  INFO -- default-ubuntu-1404:   Package "nginx"
+I, [2016-06-13T22:34:31.479590 #8899]  INFO -- default-ubuntu-1404: [32m    should be installed[0m
+I, [2016-06-13T22:34:31.479988 #8899]  INFO -- default-ubuntu-1404:   Service "nginx"
+I, [2016-06-13T22:34:31.492174 #8899]  INFO -- default-ubuntu-1404: [32m    should be running[0m
+I, [2016-06-13T22:34:31.492977 #8899]  INFO -- default-ubuntu-1404: 
+I, [2016-06-13T22:34:31.493233 #8899]  INFO -- default-ubuntu-1404: Finished in 0.11183 seconds (files took 0.31923 seconds to load)
+I, [2016-06-13T22:34:31.493608 #8899]  INFO -- default-ubuntu-1404: [32m2 examples, 0 failures[0m
+I, [2016-06-13T22:34:31.493720 #8899]  INFO -- default-ubuntu-1404: 
+I, [2016-06-13T22:34:31.522802 #8899]  INFO -- default-ubuntu-1404: Finished verifying <default-ubuntu-1404> (0m20.29s).

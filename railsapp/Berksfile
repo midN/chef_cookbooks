@@ -1,0 +1,9 @@
+source "https://supermarket.chef.io"
+
+metadata
+
+cookbook 'base', path: '../base'
+cookbook 'ruby', path: '../ruby'
+cookbook 'nginx', path: '../nginx'
+cookbook 'application_ruby'
+cookbook 'postgresql', git: 'https://github.com/phlipper/chef-postgresql'
